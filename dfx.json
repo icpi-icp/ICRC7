@@ -1,0 +1,15 @@
+{
+    "canisters": {
+        "icrc7": {
+            "type": "motoko",
+            "main": "src/ICRC7/Canisters/Token.mo"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": "vessel sources"
+        }
+    },
+    "output_env_file": ".env",
+    "version": 1
+}
